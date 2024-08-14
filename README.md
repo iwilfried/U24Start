@@ -1,66 +1,32 @@
-# U24Start
-Projektstart
+# **Begründung für die Wahl des Backends und der Technologie der Lernkarten-App**
 
-# Flashcards Project
+Die Wahl einer Progressive Web App (PWA) mit Firebase Firestore als Backend ist die optimale Lösung für die Schule. Diese Technologie ermöglicht es, eine kosteneffiziente, leicht zugängliche und erweiterbare Lern-App zu erstellen. Die App kann ohne Installation direkt im Browser genutzt werden, bietet volle Funktionalität auch in der Basisversion und kann schrittweise erweitert werden. Die einfache Wartung, die Möglichkeit zur Datenanalyse und die geringen Entwicklungskosten machen diese Lösung perfekt für das begrenzte Budget und die Bedürfnisse der Schule.
 
-## Projektantrag
+## **1. Finanzielle Effizienz:**
 
-### 1. Einleitung
+- **Kostenloses Hosting und Datenbank:** Wir haben uns für Firebase Firestore als Backend entschieden, da es im kostenlosen Spark-Plan genügend Ressourcen bietet, um die Anforderungen der App abzudecken. Damit entfallen Hosting-Kosten, und die Schule kann das Backend ohne finanzielle Belastungen nutzen.
+- **Minimale Programmierkosten:** Durch die Nutzung von Open-Source-Technologien und Cloud-Diensten werden die Entwicklungskosten signifikant gesenkt. Fertige Komponenten und professionelle Entwicklungsumgebungen ermöglichen eine zügige Umsetzung, wodurch die Programmierkosten weiter reduziert werden.
 
-**Projektname:** Flashcards Project
+## **2. Einfacher Zugang und hohe Benutzerakzeptanz:**
 
-**Projektleiter:** [Dein Name]
+- **Keine Installation erforderlich:** Die App wird als Progressive Web App (PWA) entwickelt, die direkt über den Browser genutzt werden kann. Es ist keine Installation notwendig, was die Akzeptanz bei den Nutzern, insbesondere den Schülern und Lehrern, erhöht. Die App kann durch Scannen eines QR-Codes aufgerufen werden, was den Zugang extrem einfach macht.
+- **Kein Login:** Um den Zugang so einfach wie möglich zu gestalten, wird auf eine Login-Funktion verzichtet. Dies spart Zeit und erhöht die Nutzungsfreundlichkeit.
 
-**Datum:** [Aktuelles Datum]
+## **3. Erweiterbarkeit und Flexibilität:**
 
-### 2. Ziel des Projekts
+- **Stufenkonzept:** Die App wird in Stufen entwickelt, beginnend mit den grundlegendsten Funktionen (Stufe 1). So wird die App schnell nutzbar und kann schrittweise erweitert werden, je nach den zukünftigen Bedürfnissen der Schule.
+- **Einfache Erweiterung:** Neue Fragen und Inhalte können einfach über das Backend hinzugefügt werden. Die App ist flexibel und kann ohne großen Aufwand erweitert werden, um z.B. zusätzliche Lerninhalte, Kategorien oder interaktive Funktionen zu integrieren.
 
-Das Ziel dieses Projekts ist die Entwicklung einer digitalen Lernhilfe in Form einer datenbankgestützten Web-Anwendung, die als Progressive Web App (PWA) umgesetzt wird. Diese Lernhilfe soll den Lernenden ermöglichen, prüfungsrelevante Themen jederzeit und überall zu wiederholen und langfristig zu behalten.
+## **4. Gute Dokumentation und einfache Wartung:**
 
-### 3. Hintergrund
+- **Professionell dokumentiert:** Firebase und die eingesetzten Technologien sind gut dokumentiert, was die Wartung und zukünftige Erweiterungen erleichtert. Die Schule kann bei Bedarf auch eigene IT-Mitarbeiter einbeziehen, um die App zu pflegen oder zu erweitern.
+- **Leichte Updates:** Updates der App können ohne großen Aufwand direkt über die Cloud bereitgestellt werden, sodass keine manuelle Installation auf den Geräten der Nutzer notwendig ist.
 
-Die BBQ-Baumann Bildung und Qualifizierung bietet Weiterbildungen und Umschulungen in verschiedenen Fachbereichen an. Aufgrund des großen Umfangs an Lehrstoff tritt oft das Phänomen des "Bulimie-Lernens" auf. Um diesem Problem entgegenzuwirken, soll eine mobile Lernhilfe entwickelt werden, die den Lernprozess kontinuierlich unterstützt.
+## **5. Interaktive und mobile Nutzung:**
 
-### 4. Projektziele
+- **Mobile-First Ansatz:** Die App ist für die Nutzung auf mobilen Geräten optimiert, was der bevorzugten Nutzungsweise der Schüler entspricht. Dies gewährleistet eine hohe Nutzerzufriedenheit.
+- **Interaktivität:** Die App bietet interaktive Lernkarten, die es den Schülern ermöglichen, eigenständig und flexibel zu lernen.
 
-- Lernenden ermöglichen, jederzeit und überall auf interaktive Lernkarten zuzugreifen.
-- Förderung des langfristigen Behaltens von Wissen durch regelmäßige Wiederholung.
-- Bereitstellung einer benutzerfreundlichen und flexiblen Lernplattform.
+## **6. Marketing und Auswertungen:**
 
-### 5. Anforderungen
-
-#### Funktionale Anforderungen
-
-1. **Benutzerregistrierung und -authentifizierung**
-   - Benutzer können sich registrieren und anmelden.
-2. **Erstellen und Verwalten von Lernkarten**
-   - Lehrer können Lernkarten erstellen, bearbeiten und löschen.
-3. **Lernkarten durchblättern und wiederholen**
-   - Schüler können durch Lernkarten blättern und ihren Fortschritt verfolgen.
-
-#### Nicht-funktionale Anforderungen
-
-1. **Performance**
-   - Ladezeiten für Seiten und Inhalte müssen unter 2 Sekunden liegen.
-2. **Sicherheit**
-   - Daten werden verschlüsselt übertragen (HTTPS).
-
-### 6. Technische Anforderungen
-
-- **Plattformen und Geräte**
-  - Unterstützung für iOS, Android, Windows und macOS.
-- **Technologiestack**
-  - Verwendung von Flutter für die Frontend-Entwicklung und Firebase für das Backend.
-
-### 7. Risiken und Annahmen
-
-**Risiken:**
-- Unvorhergesehene technische Probleme mit Flutter oder Firebase.
-- Verzögerungen im Projektzeitplan.
-
-**Annahmen:**
-- Benutzerfreundlichkeit: Die Benutzer sind bereit, eine neue digitale Lernhilfe zu nutzen.
-
-### Fazit
-
-Dieser Projektantrag bietet eine klare Übersicht über die Ziele, Anforderungen und den Hintergrund des Flashcards-Projekts und dient als Grundlage für die weitere Planung und Umsetzung.
+- **Marketing-Daten:** Firebase bietet integrierte Analyse-Tools, mit denen Nutzungsstatistiken und Interaktionen ausgewertet werden können. Diese Daten können genutzt werden, um die App weiter zu optimieren und gezielte Marketingmaßnahmen durchzuführen.
