@@ -1,4 +1,4 @@
-# **Begründung für die Wahl des Backends und der Technologie der Lernkarten-App**
+# **Begründung für die Wahl des Backends und der Technologie der Lernkarten-App (Nutzwertanalyse)**
 
 Die Wahl einer Progressive Web App (PWA) mit Firebase Firestore als Backend ist die optimale Lösung für die Schule. Diese Technologie ermöglicht es, eine kosteneffiziente, leicht zugängliche und erweiterbare Lern-App zu erstellen. Die App kann ohne Installation direkt im Browser genutzt werden, bietet volle Funktionalität auch in der Basisversion und kann schrittweise erweitert werden. Die einfache Wartung, die Möglichkeit zur Datenanalyse und die geringen Entwicklungskosten machen diese Lösung perfekt für das begrenzte Budget und die Bedürfnisse der Schule.
 
